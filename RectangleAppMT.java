@@ -19,7 +19,7 @@ public class RectangleAppMT {
         //loop while choice is y or Y
         String choice = "y";
         while (choice.equalsIgnoreCase("y")) {
-            //get ionpout from user
+            //get inpout from user
             double length = getDoubleWithinRange(sc, "Enter length: ", 0, 1000);
             double width = getDoubleWithinRange(sc, "Enter width: ", 0, 1000);
             
@@ -62,7 +62,7 @@ public class RectangleAppMT {
             //discard any other data on the line
             sc.nextLine();
         }
-        //return the good data back to the callnig method
+        //return the good data back to the calling method
         return d;
     }
        
