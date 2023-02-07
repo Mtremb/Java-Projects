@@ -4,7 +4,7 @@ import java.text.NumberFormat;
 import java.util.Scanner;
 
 /**Name: Max Tremblay
- * Date: 9/6/20
+ * Date: 8/6/22
  * Filename: TipCalculator
  * Purpose: To accept input for the cost of a meal and calculate expected tip amounts for a receipt
  */
